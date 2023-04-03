@@ -14,3 +14,20 @@
  </tr>
 </table><br>
 
+### Memulai Spark Shell
+<p align="justify">spark-shell adalah salah satu komponen dari Apache Spark yang menyediakan lingkungan pengembangan berbasis baris perintah (CLI) untuk interaktif menjalankan perintah-perintah Spark.</p>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Output</b></td>
+ </tr>
+ <tr>
+    <td>spark-shell</td>
+    <td><img alt="Dark" src="SparkShell.png"></td>
+ </tr>
+  <tr>
+    <td>import sys.process._<br>val res = "ls /tmp" !<br>println(res)</td>
+    <td><img alt="Dark" src="SparkShell1.png"></td>
+ </tr>
+</table><br>
+
