@@ -60,7 +60,7 @@
 
   <h1> WordCount.py</h1>
   <p align="justify">membaca file teks dari direktori tertentu menggunakan textFile() dari SparkContext dan melakukan penghitungan kata sederhana pada file tersebut. Kode menggunakan flatMap() untuk memisahkan setiap baris menjadi kata-kata, map() untuk menghitung jumlah kemunculan setiap kata, dan reduceByKey() untuk menggabungkan nilai-nilai yang sama menjadi satu nilai akhir. Output akhir dicetak menggunakan loop for. </p>
-  <img src="WordCount.png">
+  <img src="wordcount.png">
   
   <h1> SystemCommandsOutput.scala</h1>
   <p align="justify">mengeksekusi perintah shell hadoop fs -ls menggunakan operator !! dan menampilkan outputnya menggunakan println().</p>
