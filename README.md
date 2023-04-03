@@ -10,7 +10,7 @@ Pyspark dan Scala keduanya digunakan untuk mengembangkan aplikasi big data pada 
  </tr>
  <tr>
     <td>cd /home/cloudera/spark-2.0.0-bin-hadoop2.7/sbin
-     sudo ./start-all.sh</td>
+     \n sudo ./start-all.sh</td>
     <td><img alt="Dark" src="Memulai Spark.png"></td>
  </tr>
 </table><br>
