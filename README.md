@@ -78,8 +78,8 @@
   <p align="justify">Program ini pertama-tama membuat sebuah list yang berisi tiga angka dan kemudian menjadikannya RDD dengan menggunakan sc.parallelize() dan menyimpannya ke dalam variabel myRDD. Selanjutnya, program memetakan setiap elemen RDD menjadi tuple dengan menggunakan fungsi map() dan menyimpan hasilnya dalam variabel myPairRDD. Kemudian, program menggunakan fungsi keys() untuk mengakses semua kunci dalam Pair RDD myPairRDD dan menyimpan hasilnya dalam variabel keys. Program juga menggunakan fungsi values() untuk mengakses semua nilai dalam Pair RDD myPairRDD dan menyimpan hasilnya dalam variabel values. Terakhir, program mencetak hasil kunci dan nilai ke konsol.</p>
 <img src="pairRDD.png">
 
-##Tugas Praktikum 2
-###Kode 1
+## Tugas Praktikum 2
+### Kode 1
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Code</b></td>
