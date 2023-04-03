@@ -29,5 +29,10 @@
     <td>import sys.process._<br>val res = "ls /tmp" !<br>println(res)</td>
     <td><img alt="Dark" src="SparkShell1.png"></td>
  </tr>
+ <tr>
+    <td>:paste</td>
+    <td><img alt="Dark" src="SparkShell2.png"></td>
+ </tr>
 </table><br>
+<p align="justify">karena variabel "res" tidak memiliki tipe data yang didefinisikan sebelumnya sebelum digunakan dalam fungsi println() dan terjadi karena metode yang digunakan dalam perintah "ProcessLogger" harus mengembalikan nilai dari tipe "scala.sys.process.ProcessLogger", sedangkan fungsi println() mengembalikan nilai Unit.</p>
 
