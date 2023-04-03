@@ -37,3 +37,15 @@
 <h2>Alasan</h2>
 <p align="justify">Karena variabel "res" tidak memiliki tipe data yang didefinisikan sebelumnya sebelum digunakan dalam fungsi println() dan terjadi karena metode yang digunakan dalam perintah "ProcessLogger" harus mengembalikan nilai dari tipe "scala.sys.process.ProcessLogger", sedangkan fungsi println() mengembalikan nilai Unit.</p>
 
+### Memulai PySpark
+<p align="justify">PySpark adalah API Python untuk kerangka kerja pemrosesan data Apache Spark. Apache Spark sendiri adalah kerangka kerja open-source yang dirancang untuk memproses dan menganalisis data secara terdistribusi dan paralel pada cluster besar.</p>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Output</b></td>
+ </tr>
+ <tr>
+    <td>pyspark</td>
+    <td><img alt="Dark" src="pyspark.png"></td>
+ </tr>
+</table><br>
