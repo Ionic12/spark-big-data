@@ -77,3 +77,32 @@
 <h1> PairRDD.py</h1>
   <p align="justify">Program ini pertama-tama membuat sebuah list yang berisi tiga angka dan kemudian menjadikannya RDD dengan menggunakan sc.parallelize() dan menyimpannya ke dalam variabel myRDD. Selanjutnya, program memetakan setiap elemen RDD menjadi tuple dengan menggunakan fungsi map() dan menyimpan hasilnya dalam variabel myPairRDD. Kemudian, program menggunakan fungsi keys() untuk mengakses semua kunci dalam Pair RDD myPairRDD dan menyimpan hasilnya dalam variabel keys. Program juga menggunakan fungsi values() untuk mengakses semua nilai dalam Pair RDD myPairRDD dan menyimpan hasilnya dalam variabel values. Terakhir, program mencetak hasil kunci dan nilai ke konsol.</p>
 <img src="pairRDD.png">
+
+##Tugas Praktikum 2
+###Kode 1
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Penjelasan</b></td>
+ </tr>
+ <tr>
+    <td>sc</td>
+    <td><p align="justify"></p>SparkContext (sc) digunakan untuk mengatur koneksi dengan cluster Spark dan membuat RDD</td>
+ </tr>
+ <tr>
+    <td>accumulator</td>
+    <td><p align="justify"></p>accumulator digunakan untuk menjumlahkan atau menghitung variabel di seluruh node pada cluster.</td>
+ </tr>
+ <tr>
+    <td>parallelize</td>
+    <td><p align="justify"></p>Parallelize adalah metode untuk membuat RDD dari kumpulan data pada driver program dan didistribusikan ke semua node dalam cluster Spark.</td>
+ </tr>
+  <tr>
+    <td>lambda</td>
+    <td><p align="justify"></p>Lambda adalah fungsi anonim pada Python untuk mengeksekusi fungsi sederhana, dan sering digunakan untuk membuat fungsi pada operasi RDD seperti map() dan filter().</td>
+ </tr>
+   <tr>
+    <td>value</td>
+    <td><p align="justify"></p>Value adalah tipe data pada PySpark untuk menyimpan data tunggal dalam sebuah RDD, dan tidak dapat diubah setelah dibuat.</td>
+ </tr>
+</table><br>
