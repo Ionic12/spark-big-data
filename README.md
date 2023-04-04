@@ -180,3 +180,35 @@
     <td><p align="justify">metode pada PySpark yang digunakan untuk mengambil semua nilai dalam sebuah RDD yang berisi pasangan kunci-nilai (key-value pairs).</p></td>
  </tr>
 </table><br>
+
+### Kode 5
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Penjelasan</b></td>
+ </tr>
+ <tr>
+    <td>defaultParallelism</td>
+    <td><p align="justify">mengembalikan jumlah partisi yang akan dibuat secara default untuk RDD baru.</p></td>
+ </tr>
+  <tr>
+    <td>getNumPartitions</td>
+    <td><p align="justify">mengembalikan jumlah partisi dari RDD.</p></td>
+ </tr>
+  <tr>
+    <td>mapPartitionsWithIndex</td>
+    <td><p align="justify">operasi pada PySpark yang digunakan untuk memetakan setiap partisi RDD dengan indeks partisi-nya.</p></td>
+ </tr>
+  <tr>
+    <td>repartition</td>
+    <td><p align="justify">operasi pada PySpark yang digunakan untuk mengubah jumlah partisi RDD menjadi jumlah partisi yang baru.</p></td>
+ </tr>
+   <tr>
+    <td>coalesce</td>
+    <td><p align="justify">operasi pada PySpark yang digunakan untuk mengurangi jumlah partisi RDD menjadi jumlah partisi yang lebih sedikit.</p></td>
+ </tr>
+  <tr>
+    <td>toDebugString</td>
+    <td><p align="justify">metode pada RDD yang digunakan untuk mengembalikan string yang menjelaskan struktur RDD, termasuk informasi partisi dan lokasi node.</p></td>
+ </tr>
+</table><br>
