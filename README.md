@@ -135,18 +135,18 @@
  </tr>
  <tr>
     <td>textFile</td>
-    <td><p align="justify"></p>Broadcast digunakan untuk menyebarluaskan variabel atau nilai ke semua node di cluster Spark tanpa harus menyalin data pada setiap node.</td>
+    <td><p align="justify"></p>textFile adalah metode PySpark yang digunakan untuk membaca file teks dan membuat RDD dari setiap baris dalam file.</td>
  </tr>
   <tr>
     <td>filter</td>
-    <td><p align="justify"></p>List adalah tipe data pada Python untuk menyimpan kumpulan nilai atau objek, yang digunakan pada PySpark untuk membuat RDD dari kumpulan data yang diinginkan.</td>
+    <td><p align="justify"></p>Operasi filter pada PySpark digunakan untuk memfilter elemen dalam RDD berdasarkan kondisi tertentu, dan menghasilkan RDD baru yang hanya berisi elemen yang memenuhi kondisi tersebut.</td>
  </tr>
    <tr>
     <td>cache</td>
-    <td><p align="justify"></p>Range adalah fungsi bawaan pada Python untuk membuat urutan bilangan bulat, yang sering digunakan pada PySpark untuk membuat RDD dengan urutan bilangan bulat tertentu.</td>
+    <td><p align="justify"></p>Cache pada PySpark digunakan untuk menyimpan RDD dalam memori pada node di cluster, sehingga mempercepat proses yang memerlukan akses ke RDD tersebut. </td>
  </tr>
     <tr>
     <td>count</td>
-    <td><p align="justify"></p>Range adalah fungsi bawaan pada Python untuk membuat urutan bilangan bulat, yang sering digunakan pada PySpark untuk membuat RDD dengan urutan bilangan bulat tertentu.</td>
+    <td><p align="justify"></p>Count adalah operasi pada PySpark yang digunakan untuk menghitung jumlah elemen dalam RDD.</td>
  </tr>
 </table><br>
