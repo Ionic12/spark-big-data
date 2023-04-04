@@ -107,7 +107,7 @@
  </tr>
 </table><br>
 
-### Kode 1
+### Kode 2
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Code</b></td>
@@ -123,6 +123,30 @@
  </tr>
    <tr>
     <td>range</td>
+    <td><p align="justify"></p>Range adalah fungsi bawaan pada Python untuk membuat urutan bilangan bulat, yang sering digunakan pada PySpark untuk membuat RDD dengan urutan bilangan bulat tertentu.</td>
+ </tr>
+</table><br>
+
+### Kode 3
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Penjelasan</b></td>
+ </tr>
+ <tr>
+    <td>textFile</td>
+    <td><p align="justify"></p>Broadcast digunakan untuk menyebarluaskan variabel atau nilai ke semua node di cluster Spark tanpa harus menyalin data pada setiap node.</td>
+ </tr>
+  <tr>
+    <td>filter</td>
+    <td><p align="justify"></p>List adalah tipe data pada Python untuk menyimpan kumpulan nilai atau objek, yang digunakan pada PySpark untuk membuat RDD dari kumpulan data yang diinginkan.</td>
+ </tr>
+   <tr>
+    <td>cache</td>
+    <td><p align="justify"></p>Range adalah fungsi bawaan pada Python untuk membuat urutan bilangan bulat, yang sering digunakan pada PySpark untuk membuat RDD dengan urutan bilangan bulat tertentu.</td>
+ </tr>
+    <tr>
+    <td>count</td>
     <td><p align="justify"></p>Range adalah fungsi bawaan pada Python untuk membuat urutan bilangan bulat, yang sering digunakan pada PySpark untuk membuat RDD dengan urutan bilangan bulat tertentu.</td>
  </tr>
 </table><br>
