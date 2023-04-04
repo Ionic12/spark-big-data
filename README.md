@@ -150,3 +150,33 @@
     <td><p align="justify"></p>Count adalah operasi pada PySpark yang digunakan untuk menghitung jumlah elemen dalam RDD.</td>
  </tr>
 </table><br>
+
+### Kode 4
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Penjelasan</b></td>
+ </tr>
+ <tr>
+    <td>map</td>
+    <td><p align="justify">operasi pada PySpark yang digunakan untuk melakukan transformasi pada setiap elemen dalam RDD dan menghasilkan RDD baru.</p></td>
+ </tr>
+  <tr>
+    <td>collect</td>
+    <td><p align="justify">operasi pada PySpark yang digunakan untuk mengumpulkan semua elemen dalam RDD dan mengembalikan hasilnya dalam bentuk list di driver program.</p>
+</td>
+ </tr>
+   <tr>
+    <td>len</td>
+    <td><p align="justify">fungsi bawaan pada Python untuk menghitung panjang dari objek seperti list, tuple, atau string.</p></td>
+ </tr>
+   <tr>
+    <td>keys</td>
+    <td><p align="justify">metode pada PySpark yang digunakan untuk mengambil semua kunci dalam sebuah RDD yang berisi pasangan kunci-nilai (key-value pairs).</p>
+</td>
+ </tr>
+    <tr>
+    <td>values</td>
+    <td><p align="justify">metode pada PySpark yang digunakan untuk mengambil semua nilai dalam sebuah RDD yang berisi pasangan kunci-nilai (key-value pairs).</p></td>
+ </tr>
+</table><br>
