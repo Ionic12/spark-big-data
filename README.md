@@ -212,3 +212,23 @@
     <td><p align="justify">metode pada RDD yang digunakan untuk mengembalikan string yang menjelaskan struktur RDD, termasuk informasi partisi dan lokasi node.</p></td>
  </tr>
 </table><br>
+
+### Kode 6
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Code</b></td>
+    <td><b style="font-size:30px">Penjelasan</b></td>
+ </tr>
+ <tr>
+    <td>flatMap</td>
+    <td><p align="justify">Operasi pada PySpark untuk menghasilkan RDD baru dengan mengaplikasikan sebuah fungsi pada setiap elemen RDD dan menggabungkan hasilnya menjadi satu RDD.</p></td>
+ </tr>
+  <tr>
+    <td>reduceByKey</td>
+    <td><p align="justify">Operasi pada PySpark untuk menggabungkan nilai dari setiap kunci yang sama dalam RDD dan menghasilkan RDD baru dengan kunci dan nilai yang unik.</p></td>
+ </tr>
+  <tr>
+    <td>split</td>
+    <td><p align="justify">Fungsi bawaan pada Python untuk memisahkan sebuah string menjadi beberapa bagian berdasarkan separator tertentu. Sering digunakan dalam PySpark untuk memproses data teks.</p></td>
+ </tr>
+</table><br>
